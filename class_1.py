@@ -1,9 +1,9 @@
 # Example 1
-radius = float(input("enter radius: "))
-area = 3.1416 * radius ** 2
-print("Area:", area)
+r = float(input("enter radius: "))
+a = 3.1416 * r ** 2
+print("Area:", a)
 
 # Example 2
 celsius = float(input("Enter Celsius: "))
-fahrenheit = (9/5) * celsius + 32
-print("Fahrenheit:",fahrenheit)
+f = (9/5) * celsius + 32
+print("Fahrenheit:", f)
