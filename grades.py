@@ -28,4 +28,4 @@ def get_letter_grade(final_grade):
 
 grade = get_letter_grade(final_grade)
 
-print("You got: ", grade)
+print("You got an: ", grade)
