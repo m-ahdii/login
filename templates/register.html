@@ -4,8 +4,22 @@
     <title>Register</title>
 </head>
 <body>
-    <h2>Register Page</h2>
-    <p>This is just a placeholder page. Registration is not functional yet.</p>
-    <a href="/">Back to Login</a>
+    <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+        <h2>Register Page</h2>
+        <form action="/register" method="post" style="text-align: left;">
+            <label>Username:</label><br>
+            <input type="text" name="username" required><br><br>
+
+            <label>Password:</label><br>
+            <input type="password" name="password" required><br><br>
+
+            <label>Confirm Password:</label><br>
+            <input type="password" name="confirm" required><br><br>
+
+            <input type="submit" value="Register" style="background-color: green; color: white;">
+        </form>
+        <br>
+        <a href="/"><button type="button" style="background-color: blue; color: white;">Back to Login</button></a>
+    </div>
 </body>
 </html>

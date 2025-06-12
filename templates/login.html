@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html>
-<div style="text-align: center">
 <head>
     <title>Login Page</title>
 </head>
 <body>
-    <h2>Login Form</h2>
-    <form action="/login" method="post">
-        Username: <input type="text" name="username"><br><br>
-        Password: <input type="password" name="password"><br><br>
-        <input type="submit" value="Login">
+    <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+        <h2>Login Form</h2>
+        <form action="/login" method="post" style="text-align: left;">
+            <label>Username:</label><br>
+            <input type="text" name="username"><br><br>
+
+            <label>Password:</label><br>
+            <input type="password" name="password"><br><br>
+
+            <input type="submit" value="Login" style="background-color: green; color: white;">
+        </form><br>
         <a href="/register">
-            <button type="button">Register</button>
+            <button type="button" style="background-color: blue; color: white;">Register</button>
         </a>
-    </form>
+    </div>
 </body>
-</div>
 </html>
