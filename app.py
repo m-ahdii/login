@@ -19,5 +19,9 @@ def login():
     else:
         return render_template('failure.html')
     
+@app.route('/register')
+def register():
+    return render_template('register.html')
+    
 if __name__ == "__main__":
     app.run(debug=True)
